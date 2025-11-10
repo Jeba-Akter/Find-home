@@ -8,6 +8,7 @@ import TakeALoot from '../Components/TakeALoot';
 import FindsPopertis from '../Components/FindsPopertis';
 import WithUs from '../Components/WithUs';
 import MeetOurTeam from '../Components/MeetOurTeam';
+import Footer from '../Components/footer';
 
 
 const Layout = () => {
@@ -23,7 +24,7 @@ const Layout = () => {
             <FindsPopertis></FindsPopertis>
             <MeetOurTeam></MeetOurTeam>
             <WithUs></WithUs>
-            <footer></footer>
+            <Footer></Footer>
             
         </div>
     );
