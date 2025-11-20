@@ -2,7 +2,7 @@ import React from 'react';
 import Navber from '../Components/Navber';
 import Banner from '../Components/Banner';
 import ParfactHome from '../Components/ParfactHome';
-import Feacured from '../Components/feacured';
+import Feacured from '../Components/Feacured';
 import Descover from '../Components/Descover';
 import TakeALoot from '../Components/TakeALoot';
 import FindsPopertis from '../Components/FindsPopertis';
