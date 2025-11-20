@@ -10,7 +10,7 @@ const Banner = () => {
             "url(https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1032)",
         }}
       >
-        <div className="grid-cols-1 font-bold text-gray-800 pt-24 p-5">
+        <div className="grid-cols-1 font-bold text-gray-800 pt-24 w-11/12 mx-auto">
           <h1 className="sm:w-64 text-center text-lg border-2 border-gray-600 capitalize p-2">
             lets us guided your home
           </h1>
@@ -24,7 +24,7 @@ const Banner = () => {
             <h1 className="border-b border-gray-600">Sale</h1>
             <h1>Rent</h1>
           </div>
-          <div className="w-9/12 rounded-xl p-2 bg-white justify-between flex">
+          <div className="w-5/12 rounded-xl  p-2 bg-white justify-between flex">
             <div className="bg-white font-semibold text-black">
               <h1 className="text-gray-600">keyword</h1>
               <h1 className="text-black">Enter keyword</h1>

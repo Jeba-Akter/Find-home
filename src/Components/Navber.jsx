@@ -61,7 +61,7 @@ const Navber = () => {
           </ul>
         </div>
         <div className="navbar-end">
-          <div className=" hidden sm:block  flex gap-2 items-center text-xl">
+          <div className=" sm:hidden  flex gap-2 items-center text-xl">
             <h2>
               {" "}
               <FaPhone />
