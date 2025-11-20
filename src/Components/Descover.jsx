@@ -28,19 +28,19 @@ const Descover = () => {
                   <div className=" text-2xl">
                     <img src="/src/assets/img/bade.png" alt="" />
                   </div>
-                  <a>4</a>
+                  <a>2</a>
                 </div>
                 <div className="flex gap-5">
                   <div className=" text-xl">
                     <img src="/src/assets/img/bath.png" alt="" />
                   </div>
-                  <a>4</a>
+                  <a>1</a>
                 </div>
                 <div className="flex  gap-5">
                   <div className=" text-xl">
                     <img src="/src/assets/img/Vector (3).png" alt="" />
                   </div>
-                  <a>4</a>
+                  <a>7</a>
                 </div>
               </div>
               <h1 className=" text-red-500 font-samibold text-2xl">$280,000</h1>
@@ -66,19 +66,19 @@ const Descover = () => {
                   <div className=" text-2xl">
                     <img src="/src/assets/img/bade.png" alt="" />
                   </div>
-                  <a>4</a>
+                  <a>3</a>
                 </div>
                 <div className="flex gap-5">
                   <div className=" text-xl">
                     <img src="/src/assets/img/bath.png" alt="" />
                   </div>
-                  <a>4</a>
+                  <a>1</a>
                 </div>
                 <div className="flex  gap-5">
                   <div className=" text-xl">
                     <img src="/src/assets/img/Vector (3).png" alt="" />
                   </div>
-                  <a>4</a>
+                  <a>5</a>
                 </div>
               </div>
               <h1 className=" text-red-500 font-samibold text-2xl">$280,000</h1>
@@ -88,7 +88,7 @@ const Descover = () => {
         {/* 3rd */}
         <div className="card bg-base-100 w- shadow-sm">
           <figure>
-            <img src="/src/assets/img/discover3.png" alt="Shoes" />
+            <img src="/src/assets/img/discover3.png" alt="" />
           </figure>
           <div className="card-bod">
             <h2 className="card-title capitalize">kyepar pool apartment</h2>
@@ -110,13 +110,13 @@ const Descover = () => {
                   <div className=" text-xl">
                     <img src="/src/assets/img/bath.png" alt="" />
                   </div>
-                  <a>4</a>
+                  <a>5</a>
                 </div>
                 <div className="flex  gap-5">
                   <div className=" text-xl">
                     <img src="/src/assets/img/Vector (3).png" alt="" />
                   </div>
-                  <a>4</a>
+                  <a>3</a>
                 </div>
               </div>
               <h1 className=" text-red-500 font-samibold text-2xl">$280,000</h1>
