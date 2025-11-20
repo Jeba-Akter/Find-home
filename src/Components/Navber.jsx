@@ -66,7 +66,6 @@ const Navber = () => {
               {" "}
               <FaPhone />
             </h2>
-            <h1 className=" font-samibold">12345678091</h1>
             <h3>
               {" "}
               <IoMdContact />{" "}
