@@ -8,9 +8,9 @@ const FindsPopertis = () => {
         <h2 className="py-2">
           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum, earum.
         </h2>
-        <div className=" flex sm:flex-none gap-5">
+        <div className=" grid grid-cols-12 gap-5">
           <div
-            className="w-96 bg-cover h-[550px] relative position-absolute "
+            className="w-96 col-span-12 lg:col-span-4 bg-cover h-[550px] relative position-absolute "
             style={{
               backgroundImage: "url(https://i.ibb.co.com/qYsVBrKc/h61-jpg.png)",
             }}
@@ -22,7 +22,8 @@ const FindsPopertis = () => {
               </div>
             </div>
           </div>
-          <div className=" gap-5 grid  grid-cols-2 ">
+          <div className=" col-span-8" >
+            <div className=" gap-5 grid lg:grid-cols-2 ">
             {/* 1st  */}
             <div
               className="w-96 bg-cover h-[265px] relative "
@@ -83,6 +84,7 @@ const FindsPopertis = () => {
                 </div>
               </div>
             </div>
+          </div>
           </div>
         </div>
       </div>

@@ -5,7 +5,7 @@ import { IoMdContact } from "react-icons/io";
 const Navber = () => {
   return (
     <div>
-      <div className=" px-10 navbar bg-black text-white shadow-sm">
+      <div className=" sm:px-10 navbar bg-black text-white shadow-sm">
         <div className="navbar-start">
           <div className="dropdown">
             <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -27,111 +27,54 @@ const Navber = () => {
             </div>
             <ul
               tabIndex="-1"
-              className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow"
+              className="menu menu-sm dropdown-content bg-gray-900 rounded-box z-1 mt-3 w-52 p-2 shadow"
             >
-              
               <li>
-                <a>Parent</a>
-                <ul className="p-2">
-                  <li>
-                    <a>home</a>
-                  </li>
-                  <li>
-                    <a>Submenu 2</a>
-                  </li>
-                </ul>
+                <a>Home</a>
               </li>
-              
+              <li>
+                <a>Contact</a>
+              </li>
+              <li>
+                <a>About</a>
+              </li>
+              <li>
+                <a>12345678091</a>
+              </li>
             </ul>
           </div>
-          <a className="btn btn-ghost capitalize font-bold text-2xl">just home</a>
+          <a className="btn btn-ghost capitalize font-bold text-2xl">
+            Home
+          </a>
         </div>
-        <div className="navbar-center hidden lg:flex">
+        <div className="navbar-center  hidden lg:flex">
           <ul className="menu menu-horizontal font-semibold text-lg px-5">
-         
             <li>
-              <details>
-                <summary>home</summary>
-                <ul className="p-2">
-                  <li>
-                    <a>Submenu 1</a>
-                  </li>
-                  <li>
-                    <a>Submenu 2</a>
-                  </li>
-                </ul>
-              </details>
+              <a>Home</a>
             </li>
             <li>
-              <details>
-                <summary>lestings</summary>
-                <ul className="p-2">
-                  <li>
-                    <a>Submenu 1</a>
-                  </li>
-                  <li>
-                    <a>Submenu 2</a>
-                  </li>
-                </ul>
-              </details>
+              <a>Contact</a>
             </li>
-             <li>
-              <details>
-                <summary>members</summary>
-                <ul className="p-2">
-                  <li>
-                    <a>Submenu 1</a>
-                  </li>
-                  <li>
-                    <a>Submenu 2</a>
-                  </li>
-                </ul>
-              </details>
+            <li>
+              <a>About</a>
             </li>
-             <li>
-              <details>
-                <summary>blogs</summary>
-                <ul className="p-2">
-                  <li>
-                    <a>Submenu 1</a>
-                  </li>
-                  <li>
-                    <a>Submenu 2</a>
-                  </li>
-                </ul>
-              </details>
-            </li>
-             <li>
-              <details>
-                <summary>Pages</summary>
-                <ul className="p-2">
-                  <li>
-                    <a>Submenu 1</a>
-                  </li>
-                  <li>
-                    <a>Submenu 2</a>
-                  </li>
-                </ul>
-              </details>
-            </li>
-             <li>
-              
-                <a>contacts</a>
-                
-              
-            </li>
-           
           </ul>
         </div>
         <div className="navbar-end">
-            <div className=" flex gap-2 items-center text-xl" >
-                <h2> <FaPhone /></h2>
+          <div className=" hidden sm:block  flex gap-2 items-center text-xl">
+            <h2>
+              {" "}
+              <FaPhone />
+            </h2>
             <h1 className=" font-samibold">12345678091</h1>
-            <h3> <IoMdContact /> </h3>
-            </div>
-            <div className=" border-2 border-white rounded-full ml-3 p-2 " >
-                Add Proparty
-            </div>
+            <h3>
+              {" "}
+              <IoMdContact />{" "}
+            </h3>
+          </div>
+          <div className=" border-2 border-white rounded-full ml-3 p-2 ">
+            Add Proparty
+          </div>
         </div>
       </div>
     </div>
@@ -139,4 +82,3 @@ const Navber = () => {
 };
 
 export default Navber;
-
