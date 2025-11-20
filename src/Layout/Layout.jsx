@@ -8,7 +8,7 @@ import TakeALoot from '../Components/TakeALoot';
 import FindsPopertis from '../Components/FindsPopertis';
 import WithUs from '../Components/WithUs';
 import MeetOurTeam from '../Components/MeetOurTeam';
-import Footer from '../Components/footer';
+import Footer from '../Components/Footer';
 
 
 const Layout = () => {
